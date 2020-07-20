@@ -1,0 +1,38 @@
+/* Created by Agnes Kemunto Okero */
+@import url("https://fonts.googleapis.com/css?family=Poiret+One|Lobster|Handlee|Yatra+One");
+
+body {
+    background: #466453;
+    text-align: center;
+    padding: 0px;
+    margin: 0;
+}
+#header {
+    font-size: 35px;
+    color: #fac730;
+    font-family: Yatra One;
+    padding: 20px;
+}
+div header {
+    font-size: 30px;
+    color: #09e;
+    font-family: Handlee;
+}
+div {
+    border-top: 3px solid #fff700;
+    border-bottom: 3px solid #ffb700;
+    background: #ffd700;
+}
+article {
+    font-size: 22px;
+    color: #173017;
+    font-family: Lobster;
+}
+aside {
+    font-size: 18px;
+    text-align: right;
+    color: #173017;
+    font-weight: bold;
+    padding-right: 5px;
+    font-family: Poiret One;
+}
