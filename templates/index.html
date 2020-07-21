@@ -1,55 +1,70 @@
-<!-- Created by Agnes Kemunto Okero -->
-
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
     <head>
-        <title>Kenbright Celebration Code</title>
-        <link rel="stylesheet" href="{{ url_for('static',    filename='css/styles.css') }}">
+        <title>Python Flask Bucket List App</title>
+
+        <link rel="stylesheet" href="{{ url_for('static',    filename='css/bootstrap.min.css') }}">
+        <!-- <link rel="stylesheet" href="{{ url_for('static',    filename='css/jumbotron-narrow.css') }}"> -->
+
+
     </head>
 
     <body>
-        <header id=header>Kenbright Celebration Code</header>
-        <!--
-        <div>
-            <header></header>
-            <article></article>
-            <aside></aside>
-        </div>
-        -->
-        <div>
-            <header>27 years of celebration</header>
-            <article>It was founded on 14th April 1993</article>
-            <aside>Happy Anniversary</aside>
-        </div>
-        <div>
-            <header>Kenbright owns 4 appendages</header>
-            <article>Kenya Insurance Brokers<br>Kenbright Health Administrators<br>Kenbright Actuarial and Financial
-                Services<br>Kenbright Reinsurance brokers</article>
-            <aside>Thanks to our amazing team</aside>
-        </div>
-        <div>
-            <header>Kenbright Health Administrators</header>
-            <article>A decade of provision of Health Administration</article>
-            <aside>Since 2005</aside>
-        </div>
-        <div>
-            <header>Kenbright Actuarial and Financial Services</header>
-            <article>5 years of wonderful experience<br>A world full of digitallization and Artificial
-                intelligence<br>Data Science and analytics included<br>A team full of intelligent personnels has made
-                this sector grow</article>
-            <aside>Keep abreast actuaries</aside>
-        </div>
-        <div>
-            <header>Kenbright Reinsurance brokers</header>
-            <article>We aim to be the reinsurance broker of choice in the continent</article>
-            <aside>Dream choice to partner with</aside>
-        </div>
-        <div>
-            <header>Happy Anniversary</header>
-            <article>And<br>Welcome to get the best Actuarial, Pension and Risk related advisory services<br>♡♡♡♡♡
-            </article>
-            <aside>2020</aside>
+
+        <div class="container">
+            <div class="header">
+                <nav>
+                    <ul class="nav nav-pills pull-right">
+                        <li role="presentation" class="active"><a href="#">Home</a>
+                        </li>
+                        <li role="presentation"><a href="#">Sign In</a>
+                        </li>
+                        <li role="presentation"><a href="showSignUp">Sign Up</a>
+                        </li>
+                    </ul>
+                </nav>
+                <h3 class="text-muted">Python Flask App</h3>
+            </div>
+
+            <div class="jumbotron">
+                <h1>Bucket List App</h1>
+                <p class="lead"></p>
+                <p><a class="btn btn-lg btn-success" href="showSignUp" role="button">Sign up today</a>
+                </p>
+            </div>
+
+            <div class="row marketing">
+                <div class="col-lg-6">
+                    <h4>Bucket List</h4>
+                    <p>Test 1.</p>
+
+                    <!--  <h4>Bucket List</h4>
+                    <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit
+                        amet fermentum.</p>
+
+                    <h4>Bucket List</h4>
+                    <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p> -->
+                </div>
+
+                <!--         <div class="col-lg-6">
+                    <h4>Bucket List</h4>
+                    <p>Donec id elit non mi porta gravida at eget metus. Maecenas faucibus mollis interdum.</p>
+
+                    <h4>Bucket List</h4>
+                    <p>Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Cras mattis consectetur purus sit
+                        amet fermentum.</p>
+
+                    <h4>Bucket List</h4>
+                    <p>Maecenas sed diam eget risus varius blandit sit amet non magna.</p>
+                </div> -->
+            </div>
+
+            <footer class="footer">
+                <p>&copy; Codesoft 2020</p>
+            </footer>
+
         </div>
     </body>
-    Kenbright
+
+</html>
